@@ -1,0 +1,15 @@
+<svg viewBox="0 0 500px 500px" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <pattern 
+  id='pattern' 
+  patternUnits='userSpaceOnUse' 
+  width='40px' 
+  height='20px'
+  patternTransform='scale(1) rotate(0)'>
+    <rect x='0' y='0' width='100%' height='100%' fill='hsla(228, 26%, 18%, 1)' />
+    <path d='M0 5H40' stroke-width='1' stroke-dasharray='15 10 15' stroke='hsla(68, 18%, 41%, 1)' fill='none' />
+    <path d='M5 15H35' stroke-width='1' stroke='hsla(68, 18%, 41%, 1)' fill='none' />
+  </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#pattern)" />
+  </svg>
