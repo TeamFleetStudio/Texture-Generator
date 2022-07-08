@@ -12,8 +12,22 @@
     "lint": "eslint . --fix",
     "test": "jest --coverage"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TeamFleetStudio/Texture-Generator"
+  },
+  "bugs": {
+    "url": "https://github.com/TeamFleetStudio/Texture-Generator/issues"
+  },
+  "homepage": "https://github.com/TeamFleetStudio/Texture-Generator",
   "keywords": [],
-  "author": "FleetStudio Team",
+  "author": {
+    "name": "FleetStudio Team",
+    "email": "technology@fleetstudio.com"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "@parcel/packager-ts": "^2.5.0",
